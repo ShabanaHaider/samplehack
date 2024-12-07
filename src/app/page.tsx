@@ -1,113 +1,90 @@
-import Image from "next/image";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+        export default function HeroSection() {
+      return (
+          <div className="relative">
+              <div className="flex">
+  
+                  {/* Hero Section Left Side */}
+                  <div className="hidden md:flex ml-20 mt-12 w-[217px] h-[400px] gap-4 border-r-2 border-gray-300">
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+                      <div className="flex flex-col w-[217px] gap-4 mt-10 ml-16">
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+                          <div className="flex w-full h-6 gap-[51px] mb-4">
+                              <p className="w-[142px] h-6 font-normal text-base text-start">Woman's Fashion</p>
+                              <img src="DropDown2.png" alt="DropDown" className="mr-2"/>
+                          </div>
+                          <div className="flex w-full h-6 gap-[51px] mb-4">
+                              <p className="w-[112px] h-6 font-normal text-base text-start">Men's Fashion</p>
+                              <img src="DropDown2.png" alt=" DropDown" className="ml-[28px]"/>
+                          </div>
+                          <div className="w-[87px] h-6 mb-4">
+                              <p className="font-normal text-base text-start">Electronics</p>
+                          </div>
+                          <div className="w-[132px] h-6 mb-4">
+                              <p className="font-normal text-base text-start">Home & LifeStyle</p>
+                          </div>
+                          <div className="w-[73px] h-6 mb-4">
+                              <p className="font-normal text-base text-start">Medicine</p>
+                          </div>
+                          <div className="w-[137px] h-6 mb-4">
+                              <p className="font-normal text-base text-start">Sports & Outdoor</p>
+                          </div>
+                          <div className="w-[109px] h-6 mb-4">
+                              <p className="font-normal text-base text-start">Baby's & Toys</p>
+                          </div>
+                          <div className="w-[131px] h-6 mb-4">
+                              <p className="font-normal text-base text-start">Grociries & Pets</p>
+                          </div>
+                          <div className="w-[128px] h-6">
+                              <p className="font-normal text-base text-start">Health & Beauty</p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  {/* Hero Section Right Side */}
+                  <div className="flex flex-col ml-20 mt-6 pl-4 md:flex-row w-[892px] h-[344px] bg-black text-[#FAFAFA] relative">
+  
+                      {/* Right Side Text Section */}
+                      <div className="relative z-10">
+                          <div className="flex w-[190px] h-[49px] gap-7 mt-16 ml-16">
+                              <img src="/1200px-Apple_gray_logo 1.png" alt="Apple Logo" width={40} height={49}/>
+                              <div className="w-[126px] h-5">
+                                  <p className="font-normal text-base text-center mt-3">iPhone 14 Series</p>
+                              </div>
+                          </div>
+                          <div className="w-[294px] h-[120px] mt-[32px] ml-16">
+                              <p className="font-semibold font-inter text-5xl">Up to 10% off Voucher</p>
+                              <img src="/Shop.png" alt="Shop" className="w-[16.5] h-[22px ml-6]"/>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
-}
+                          </div>
+                          <div className="flex w-[113px] h-7 mt-[142px] ml-16 gap-2">
+                              {/* <div className="w-[81px] h-7 gap-1">
+                                  <p className="w-[81px] h-6 font-medium text-base text-center">Shop Now</p>
+                              </div> */}
+                              {/* <img src="/Shop.png" alt="Shop" className="w-[16.5] h-[14px]"/> */}
+                          </div>
+                          {/* <div className="w-[74px] border-[1px] mt-[10px] ml-16"></div> */}
+                      </div>
+  
+                      {/* Right Side Image Section */}
+                      <div className="w-[496px] h-[352px] absolute top-4 left-[396px]">
+                          <img src="/Hero Image.png" alt="Hero Image"/>
+                      </div>
+  
+                      {/* Indicator Dots */}
+                      <div className="flex w-[110px] h-[14px] absolute top-[319px] left-[353px] gap-3">
+                          <div className="w-3 h-3 bg-white opacity-50 rounded-full"></div>
+                          <div className="w-3 h-3 bg-white opacity-50 rounded-full"></div>
+                          <div className="w-3 h-3 bg-[#DB4444] rounded-full"></div>
+                          <div className="w-3 h-3 bg-white opacity-50 rounded-full"></div>
+                          <div className="w-3 h-3 bg-white opacity-50 rounded-full"></div>
+                      </div>
+  
+                  </div>
+              </div>
+          </div>
+      );
+  }
+  
