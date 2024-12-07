@@ -11,11 +11,11 @@
 
 
                           <div className="flex w-full h-6 gap-[51px] mb-4">
-                              <p className="w-[142px] h-6 font-normal text-base text-start">Woman's Fashion</p>
+                              <p className="w-[142px] h-6 font-normal text-base text-start">Womans Fashion</p>
                               <img src="DropDown2.png" alt="DropDown" className="mr-2"/>
                           </div>
                           <div className="flex w-full h-6 gap-[51px] mb-4">
-                              <p className="w-[112px] h-6 font-normal text-base text-start">Men's Fashion</p>
+                              <p className="w-[112px] h-6 font-normal text-base text-start">Men Fashion</p>
                               <img src="DropDown2.png" alt=" DropDown" className="ml-[28px]"/>
                           </div>
                           <div className="w-[87px] h-6 mb-4">
