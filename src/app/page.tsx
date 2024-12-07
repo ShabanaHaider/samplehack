@@ -31,7 +31,7 @@
                               <p className="font-normal text-base text-start">Sports & Outdoor</p>
                           </div>
                           <div className="w-[109px] h-6 mb-4">
-                              <p className="font-normal text-base text-start">Baby's & Toys</p>
+                              <p className="font-normal text-base text-start">Babys & Toys</p>
                           </div>
                           <div className="w-[131px] h-6 mb-4">
                               <p className="font-normal text-base text-start">Grociries & Pets</p>
